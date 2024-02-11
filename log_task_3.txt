@@ -1,0 +1,4 @@
+2024-02-11 17:08:43.597011
+function "test_4" was called
+args: (), kwargs: {}
+result: None
