@@ -1,6 +1,8 @@
 import types
 from task2 import logger
 
+
+@logger('log_task_3.txt')
 def flat_generator(list_of_lists):
     for sublist in list_of_lists:
         for element in sublist:
@@ -10,7 +12,7 @@ def flat_generator(list_of_lists):
                 yield element
 
 
-@logger('log_task_3.txt')
+# @logger('log_task_3.txt')
 def test_4():
 
     list_of_lists_2 = [
